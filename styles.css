@@ -1,0 +1,59 @@
+
+body{
+  margin: 0;
+}
+.header{
+  width: 100%;
+  height: 50px;
+}
+
+.header ul{
+   list-style-type: none;
+   float: right;
+}
+
+.header ul li{
+    float: left;
+    padding: 0 7px;
+  }
+
+.header ul li button{
+    border: 0;
+    padding: 5px;
+    background-color: #4285f4;
+    color: white;
+    border-radius: 5px;
+  }
+
+.content{
+    margin-top: 151px;
+    margin-left: -23px;
+    width: 65%;
+    padding: 0 200px;
+}
+
+.content img{
+    margin: auto;
+    display:block;
+}
+
+.search-box{
+      width: 300px;
+      height: 50px;
+      border: 1px solid #eee;
+      box-shadow: 3px 3px 12px grey;
+      margin: auto;
+
+}
+
+.search-box input{
+      height: 47px;
+      width: 265px;
+      border: white;
+      float: left;
+}
+
+.search-box img{
+       float: right;
+
+}
